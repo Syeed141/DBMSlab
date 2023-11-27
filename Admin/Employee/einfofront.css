@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background:url('./front.jpg') no-repeat;
+   background-size:cover;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    }
+
+
+/*h3 {
+    
+    color: #1cb255;
+    background:none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    margin: 4px;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+    } */
+    
+    a:hover{
+    
+    opacity: .7;
+    
+    }
+
+    .admin{
+
+  
+        color: #8cd04b;
+        padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+
+    .ac{
+
+        color: #83ce3c;
+        padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+
+   
+
+.logout{
+    text-align: left;
+    margin-top: 50px;
+    color:aliceblue;
+}
+

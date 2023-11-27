@@ -1,0 +1,166 @@
+
+body{
+
+    
+    background:url('back.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    flex-direction: column;
+    }
+    
+*{
+font-family: sans-serif;
+box-sizing: border-box;
+
+
+}
+
+
+form{
+
+width: 500px;
+border: 2px solid yellow;
+padding: 30px;
+background:#90FFFF;
+border-radius: 15px;
+opacity: .6;
+}
+
+h2{
+
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input{
+
+display: block;
+border: 2px solid #cccccc;
+width:95%;
+padding: 10px;
+margin: 10px auto;
+border-radius: 5px;
+}
+
+
+label{
+
+color: #888;
+font-size: 18px;
+padding: 10px;
+
+
+
+
+}
+
+button{
+
+float:right;
+background: #555555;
+padding: 10px 15px;
+color:#fff;
+border-radius: 5px;
+margin-right:10px;
+border : none;
+
+}
+
+
+button:hover{
+
+opacity: .7;
+
+}
+
+.ac {
+float:left;
+font-size: 14px;
+
+padding:8px;
+text-decoration: none;
+color: #444;
+}
+
+.ac:hover{
+
+text-decoration: underline;
+
+}
+
+
+.error {
+
+   
+
+background:#FD6D6D;
+color:#1c1919;
+padding:5px;
+width: 90%;
+border-radius: 10px;
+
+
+
+
+}
+
+
+
+
+.success {
+
+   
+
+    background:#0a8a1f;
+    color:yellow;
+    padding:8px;
+    width: 90%;
+    border-radius: 18px;
+    
+    
+    
+    
+    }
+
+
+    
+    
+
+
+            .student {
+                float:left;
+                font-size: 20px;
+                
+                padding:10px;
+                text-decoration: none;
+                color: #17d217;
+                }
+        
+        
+                .student:hover{
+        
+                    text-decoration: underline;
+                    
+                    }
+
+                    /* .admin {
+                        float:left;
+                        font-size: 20px;
+                        
+                        padding:10px;
+                        text-decoration: none;
+                        color: #2d2f2d;
+                        }
+                
+                
+                        .admin:hover{
+                
+                            text-decoration: underline;
+                            
+                            } */
+                
+                  

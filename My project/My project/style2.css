@@ -1,0 +1,35 @@
+/* Apply background color or background image to the entire body */
+body {
+    background-color: #f2f2f2; /* You can change this to your desired background color */
+    background-image: url('.jpg'); /* You can use an image as the background */
+    background-size: cover; /* Cover the entire body with the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-attachment: fixed; /* Fixed background position */
+    font-family: Arial, sans-serif; /* Set a font for the body text */
+}
+
+/* Style the button container */
+.button-container {
+    text-align: center;
+    margin-top: 100px; /* Adjust the top margin to center the buttons vertically */
+}
+
+/* Style the buttons as mentioned in the previous answer */
+.button-container button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,43 @@
+/* Reset default margins and padding for consistency across browsers */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color or background image to the entire page */
+body {
+    background-color: #f2f2f2; /* Background color for the entire page */
+    
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    font-family: Arial, sans-serif;
+}
+
+/* Style the table */
+table {
+    width: 40%; /* Adjust the width of the table */
+    margin: 20px auto; /* Center the table horizontally with some top margin */
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+/* Style table headers */
+th {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Style table data rows */
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+/* Style table rows with alternating background color */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

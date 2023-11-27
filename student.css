@@ -1,0 +1,70 @@
+
+body,
+h1,
+h3,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set overall font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color:999ea7; /* Body background color */
+    color: #d8b26e; /* Text color */
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333; /* Heading background color */
+    color: #fff; /* Heading text color */
+}
+
+/* Style the container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:white; /* Container background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Style the list items */
+h3 {
+    margin: 10px 0;
+}
+
+/* Style the links */
+.admin {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+}
+
+/* On hover effect for links */
+.admin:hover {
+    color: #0056b3; /* Hover color */
+}
+
+/* Style the logout button */
+.logout {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logout a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #dc3545; /* Button background color */
+    color: #fff; /* Button text color */
+    border-radius: 5px;
+}
+
+.logout a:hover {
+    background-color: #bd2130; /* Darker button background color on hover */
+}
+
+

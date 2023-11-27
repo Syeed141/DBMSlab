@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#0c2431;
+}
+
+.try {
+    text-align: center;
+    margin-top: 100px;
+}
+
+form {
+    display: inline-block;
+    background-color:#b5c2c7 ;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.admin {
+    background-color: #ffad33;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.student {
+    background-color: #3399ff;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.ac {
+    color: #666;
+    font-size: 14px;
+}

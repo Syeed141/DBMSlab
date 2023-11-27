@@ -1,0 +1,126 @@
+
+
+
+
+
+
+<?php
+include('connection.php');
+session_start();
+
+if (isset($_SESSION["username"])) {
+
+
+
+
+?>
+
+
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Options</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="container">
+
+        <?php
+
+if (isset($_GET['yes']) && $_GET['yes'] === 'success') {
+    echo '<div class="alert alert-success" role="alert">Student information successfully approved!</div>';
+}
+
+if (isset($_GET['no']) && $_GET['no'] === 'success') {
+    echo '<div class="alert alert-success" role="alert">Student information  disapproved!</div>';
+}
+?>
+
+            <button class="btn btn-primary my-5"> <a href="../studentinfooption.php" class="text-light">Approved student list </a> </button>
+           <h2>AUAH STUDENT INFO</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Student ID</th>
+                        <th scope="col">Name</th>
+                        
+                        <th scope="col">Operations</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+
+                    <?php
+
+                    $sql = "Select * from users";
+                    $result = mysqli_query($conn, $sql);
+                    
+                    if ($result) {
+
+                        while ($row = mysqli_fetch_array($result)) {
+                            if ($row["is_approved"] ==0 ) {
+                            $sl=$row["id"];
+                           // $id = $row["ID"];
+                            $name = $row["username"];
+                            
+                            echo    ' <tr>
+
+                            <th scope="row" >' . $sl . '</th>   
+                            <td>' . $name . '</td>
+                           
+                            <td>
+                        
+                          <button class="btn btn-primary"  onclick="return confirm(\'Are you sure you want to Approve?\')"><a href="./yes.php?aid='.$sl.' " class="text-light" >Approve</a></button>
+                          <button class="btn btn-danger"   onclick="return confirm(\'Are you sure you want to Disapprove?\')"><a href="./no.php?deleteid='.$sl.'" class="text-light" >Disapprove</a></button>
+     
+                         </td>
+     
+    
+                                     </tr> ';
+                        }
+                    }
+                }
+
+                    ?>
+
+
+
+                </tbody>
+            </table>
+        </div>
+
+
+       <button class="btn btn-primary my-5">  <a href="../Adminhome.php" class="text-light"> Want to go back? </a> </button>
+        
+        
+    </html>
+
+
+
+
+<?php
+
+} 
+
+
+
+
+
+else {
+
+
+    header("location:../logininterface.php ");
+}
+
+
+
+
+
+
+?>
