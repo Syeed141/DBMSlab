@@ -1,7 +1,7 @@
 
-# 🍽️ DBMS Lab Project – Online Canteen Management System
+# 🍽️ AUAH Meal Management System
 
-Welcome to the **Online Canteen Management System**, a PHP-MySQL-based web application designed to streamline meal ordering and student/admin interactions in a university canteen. This project was developed as part of a **Database Management Systems (DBMS)** lab.
+Welcome to the Online AUAH Meal Management System, a PHP-MySQL-based web application designed to streamline meal ordering and student/admin interactions in our iniversity hall. This project was developed as part of a Database Management Systems (DBMS) lab work.
 
 ---
 
@@ -50,17 +50,17 @@ DBMSlab-main/
 
 ## 💡 Features
 
-- 🔐 **Login System**  
+- 🔐 Login System  
   Admin and student login with backend validation.
 
-- 🧾 **Meal Management**  
+- 🧾 Meal Management  
   Multiple SQL files to handle meal-related entries and schema setup.
 
-- 👨‍🎓 **Student Portal**  
+- 👨‍🎓 Student Portal  
   - Personal info management
   - Canteen access interface
 
-- 👨‍💼 **Admin Panel**  
+- 👨‍💼 Admin Panel  
   - Admin dashboard
   - Add/view admin accounts
   - Visual UI with dedicated CSS
@@ -69,33 +69,31 @@ DBMSlab-main/
 
 ## ⚙️ Technologies Used
 
-- **Frontend**: HTML, CSS, PHP
-- **Backend**: PHP
-- **Database**: MySQL
-- **Tools**: XAMPP / WAMP (recommended for testing locally)
+- Frontend: HTML, CSS, PHP
+- Backend: PHP
+- Database: MySQL
+- Tools: XAMPP / WAMP (recommended for testing locally)
 
 ---
 
 ## 🛠️ Setup Instructions
 
-1. **Clone the Repository or Extract the ZIP**
+1. Clone the Repository or Extract the ZIP
    ```
    git clone <repo-url>
    ```
 
-2. **Set Up Database**
+2. Set Up Database
    - Import `d.sql`, `meal.sql` into your MySQL server using phpMyAdmin or the MySQL CLI.
 
-3. **Configure Connection**
+3. Configure Connection
    - Update `connection.php` files with your DB username, password, and host.
 
-4. **Run the Project**
+4. Run the Project
    - Place the files in your `htdocs/` directory (for XAMPP).
    - Navigate to `http://localhost/DBMSlab-main/logininterface.php`
 
 ---
-
-
 
 ## 📄 License
 
